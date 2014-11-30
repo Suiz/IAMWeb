@@ -1,7 +1,5 @@
 package fr.jju.iamwebproject.src;
 
-import fr.jju.iamwebproject.derby.DerbyDAO;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -26,9 +24,6 @@ public class Main {
 				System.out.println(firstname + " " + lastname);
 				
 			}
-			
-			DerbyDAO derbytest = new DerbyDAO();
-			derbytest.getAllIdentities();
 			
 		
 			

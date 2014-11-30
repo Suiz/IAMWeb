@@ -1,14 +1,12 @@
 package fr.jju.iamwebproject.servlets;
 
 import java.io.IOException;
-import java.io.PipedOutputStream;
 import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -44,7 +42,6 @@ public class Output extends HttpServlet {
         
 		// Actual logic goes here.
 	    PrintWriter out = response.getWriter();
-	    out.println("<h1>OH HAI</h1>");
 	    
 	    List<String>contactList = new ArrayList<String>();
 	    
