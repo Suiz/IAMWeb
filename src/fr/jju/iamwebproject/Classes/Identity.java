@@ -1,4 +1,4 @@
-package fr.jju.iamwebproject.DAO;
+package fr.jju.iamwebproject.Classes;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -27,9 +27,9 @@ public class Identity {
 	public String identityPhoneNumber;
 	
 	public Identity(String firstname, String lastname, String phonenumber) {
-		identityName = firstname;
-		identityLastName = lastname;
-		identityPhoneNumber = phonenumber;
+		this.identityName = firstname;
+		this.identityLastName = lastname;
+		this.identityPhoneNumber = phonenumber;
 	}
 
 }

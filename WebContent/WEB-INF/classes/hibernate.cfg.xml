@@ -20,8 +20,7 @@
 		<property name="hibernate.hbm2ddl.auto">update</property>
 		
 		
-		<mapping class="fr.jju.iamwebproject.DAO.Identity" />
-		<mapping class="fr.jju.iamwebproject.DAO.Address" />
+		<mapping class="fr.jju.iamwebproject.Classes.Identity" />
 		<!-- <property name="hibernate.connection.driver_class">org.mariadb.jdbc.Driver</property> 
 			<property name="hibernate.connection.password">root</property> <property 
 			name="hibernate.connection.url">jdbc:mysql://localhost:3306/test</property> 

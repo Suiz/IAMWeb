@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import fr.jju.iamwebproject.DAO.Identity;
+import fr.jju.iamwebproject.Classes.Identity;
 import fr.jju.iamwebproject.DAO.IdentityDAO;
 
 @RunWith(SpringJUnit4ClassRunner.class)
@@ -19,7 +19,7 @@ public class HIbDAOTest {
 
 	@Test
 	public void testInsert() {
-		Identity identity = new Identity("Kate", "Beckett", "555-555-5555");
+		Identity identity = new Identity("Peggy", "Carter", "555-555-5555");
 		identityDAO.saveIdentity(identity);
 	}
 	
